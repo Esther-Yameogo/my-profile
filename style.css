@@ -1,0 +1,97 @@
+/* Couleurs et polices générales */
+body {
+  background: #F7F9FC;
+  color: #2c3e50; /* Un bleu très foncé, presque gris, très lisible pour les paragraphes */
+  font-family: 'Lora', serif;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Ton nom en Bleu Marine */
+h1 {
+  color: #1B365D; /* Bleu Marine (Navy) */
+  font-size: 32px;
+  font-weight: 900;
+}
+
+/* Titres Biology, Agriculture et Biotech en VERT */
+h2 {
+  color: #27ae60; /* Un beau vert nature */
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* Style des liens et paragraphes */
+p {
+  color: #2c3e50; /* Bleu foncé lisible pour le texte */
+}
+
+a {
+  font-family: 'Roboto', sans-serif;
+  text-decoration: none;
+  color: #6B72E1;
+  font-weight: 600;
+}
+
+/* Le bouton "Discover Le Wagon" */
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s; /* Pour une transition douce */
+}
+
+/* Changement de couleur au clic ou survol (Noir) */
+.btn-blue:active, .btn-blue:hover {
+  background-color: #000000; /* Devient noir au clic */
+  color: white;
+}
+
+/* Design des cartes et centrage */
+.content {
+  width: 700px;         /* Largeur sur PC */
+  max-width: 90%;      /* Sécurité : ne jamais dépasser 90% de l'écran sur téléphone */
+  margin: 40px auto;    /* Centre le bloc horizontalement */
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* Style pour aligner les icônes horizontalement */
+.list-inline {
+  list-style: none; /* Enlève les points noirs */
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.list-inline li {
+  padding: 0 15px; /* Espace entre les icônes */
+}
+
+.list-inline i {
+  font-size: 40px; /* Taille des icônes */
+  color: #575F7D; /* Couleur grise/bleue lisible */
+}
+
+/* Changement de couleur au survol des icônes */
+.list-inline i:hover {
+  color: #27ae60; /* Devient vert comme vos titres */
+}
